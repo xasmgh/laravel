@@ -1,0 +1,36 @@
+/**
+  Font
+**/
+@import url('https://fonts.googleapis.com/css?family=Ruslan+Display');
+
+body {
+  font-family: 'Ruslan Display', cursive;
+}
+header, main, footer, .content-box {
+  /*border: 1px solid black;*/
+}
+header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 20px 0;
+}
+main {
+  width: 75%;
+  margin: 0 auto 20px auto;
+}
+header ul li{
+  display: inline;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+}
+.content-box {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+.content-box > * {
+  margin: 5px;
+}
